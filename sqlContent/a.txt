@@ -1,0 +1,8 @@
+a标签可以定义锚。它有两种用法：<br/>
+通过使用href属性，创建指向另外一个文档的链接（或者超链接）<br/>
+通过name或者id属性，创建一个文档内部的书签(也可以说是指向文档内部的标签)<br/>
+target属性:<br/>
+_blank:新窗口打开<a href="http://www.baidu.com/" target="_blank" style="text-decoration: none">target="_blank"</a><br/>
+_self：默认本窗口打开<a href="http://www.baidu.com/" target="_self" style="text-decoration: none">target="_self"</a><br/>
+_parent：父框架集中打开连接文档（实测无差别）<br/>
+_top：整个窗口打开连接文档（实测无差别）<br/>
